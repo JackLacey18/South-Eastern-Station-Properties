@@ -134,7 +134,7 @@ St Leonards Warrior Square station_94
 St Mary Cray station_45
 St Pancras station_19
 Sandling station_88
-Sandwich station_119
+Sandwich station_120
 Selling station_99
 Sevenoaks station_33
 Sheerness-on-Sea station_107
