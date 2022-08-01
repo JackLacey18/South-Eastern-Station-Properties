@@ -214,7 +214,10 @@ if __name__ == ('__main__'):
             print(element)
             if element != 'Cannon Street station':
                 if element != 'London Bridge station':
-                    commutes.append(commuteTime(element,'London Bridge'))
+                    if element != 'Sandwich station':
+                        commutes.append(commuteTime(element,'London Bridge'))
+            if element == 'Sandwich station':
+                commutes.append(commuteTime('Sandwich CT13 9RA','London Bridge'))
             if element == 'Cannon Street station':
                 commutes.append('0 min')
             if element == 'London Bridge station':
