@@ -12,7 +12,7 @@ This file is called Station_Data.txt.
 
 Commute times from each station will be important when considering where to buy. So the script gathers commute times from each station to
 London Bridge. Google maps with Selenium is used to collect all commute times if people were to start their commute on the next working day
-at 6:30am. The data was written again to a text file and only initiated if the file doesn't alrady exist.
+at 6:30am. The data was written again to a text file and only initiated if the file doesn't already exist.
 This file is called Commute_Times.txt.
 
 When we finally have all this data, we can then scrape properties listed within a 3 mile radius of each station with the stations scraped and
