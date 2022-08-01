@@ -20,4 +20,4 @@ the area codes of each station.
 
 Once all the properties for each station have been scraped, the script appends the commute time of each property to the listing, cleans the data
 and writes the data to a CSV file called Rightmove_South-Eastern_Station_Properties_DATA_TIME.csv, date and time being the date and time the file
-finished execution.
+was written.
